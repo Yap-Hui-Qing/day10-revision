@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         Console cons = System.console();
-        String integers = cons.readLine(">>> Please enter an array of integers: ");
+        String integers = cons.readLine(">>> Please enter a string of integers separated by spacing: ");
         // split by spaces
         String[] array = integers.split("\\s+");
         List<Integer> values = new ArrayList<>();

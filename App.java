@@ -8,16 +8,18 @@ public class App{
     }
 
     public static void recursiveReverseFunction(int n){
-        System.out.println(n);
+        
         if (n > 5){
             recursiveReverseFunction(n-1);
+            System.out.println(n);
         }
     }
 
     public static void recursiveAscendingFunction(int n){
-        System.out.println(n);
+        
         if (n < 5){
-            recursiveReverseFunction(n+1);
+            recursiveAscendingFunction(n+1);
+            System.out.println(n);
         }
     }
 }
